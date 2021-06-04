@@ -210,7 +210,7 @@ namespace livestock_api_samples
             if (signedIn)
             {
                 CallApiButton.Visibility = Visibility.Visible;
-                EditProfileButton.Visibility = Visibility.Visible;
+                EditProfileButton.Visibility = Visibility.Collapsed;
                 SignOutButton.Visibility = Visibility.Visible;
 
                 SignInButton.Visibility = Visibility.Collapsed;
